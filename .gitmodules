@@ -1,0 +1,6 @@
+[submodule "excalidraw"]
+	path = excalidraw
+	url = https://github.com/excalidraw/excalidraw.git
+[submodule "excalidraw-animate"]
+	path = excalidraw-animate
+	url = https://github.com/YOUR_USERNAME/excalidraw-animate.git

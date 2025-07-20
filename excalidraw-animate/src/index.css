@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.Viewer-container svg {
+  width: 100%;
+  height: 100%;
+}
+
+.GitHubCorner-container:hover .GitHubCorner-octo-arm {
+  animation: GitHubCorner-octocat-wave 560ms ease-in-out;
+}
+
+@keyframes GitHubCorner-octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .GitHubCorner-container:hover .GitHubCorner-octo-arm {
+    animation: none;
+  }
+  .GitHubCorner-octo-arm {
+    animation: GitHubCorner-octocat-wave 560ms ease-in-out;
+  }
+}
+
+@media (max-width: 300px) {
+  .GitHubCorner-container {
+    display: none;
+  }
+}
